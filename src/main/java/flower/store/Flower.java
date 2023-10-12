@@ -15,6 +15,12 @@ public class Flower {
     @Getter
     private FlowerType flowerType;
 
+    public Flower (Flower flower) {
+        this.sepalLength = flower.sepalLength;
+        this.color = flower.color;
+        this.price = flower.price;
+        this.flowerType = flower.flowerType;
+    }
     public String getColor() {
         return color.toString();
     }
