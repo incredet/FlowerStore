@@ -9,7 +9,7 @@ public class FlowerPack {
     private int quantity;
     private double price;
 
-    private FlowerPack(Flower flower, int quantity) {
+    FlowerPack(Flower flower, int quantity) {
         this.flower = flower;
         this.quantity = quantity;
     }
